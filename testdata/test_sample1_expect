@@ -1,0 +1,50 @@
+package testdata
+
+import (
+	"testing"
+)
+
+func Test_alice(t *testing.T) {
+	// Test implementation
+	const whoami = "alice"
+
+	if whoami != "alice" {
+		t.Errorf("whoami is not alice")
+	}
+}
+
+func Test_bob(t *testing.T) {
+	// Test implementation
+	const whoami = "bob"
+
+	if whoami != "bob" {
+		t.Errorf("whoami is not bob")
+	}
+}
+
+func Test_charlie(t *testing.T) {
+	// Test implementation
+	const whoami = "charlie"
+
+	if whoami != "charlie" {
+		t.Errorf("whoami is not charlie")
+	}
+}
+
+func Test_david(t *testing.T) {
+	// Test implementation
+	const whoami = "david"
+
+	if whoami != "david" {
+		t.Errorf("whoami is not david")
+	}
+}
+
+func Test_eve(t *testing.T) {
+	// Test implementation
+	const whoami = "eve"
+
+	if whoami != "eve" {
+		t.Errorf("whoami is not eve")
+	}
+}

@@ -1,0 +1,23 @@
+version: "2"
+
+run:
+  tests: true
+  allow-parallel-runners: true
+
+linters:
+  default: all
+  exclusions:
+    paths:
+      - .github
+  disable:
+    # Disabled due to wsl_v5
+    - wsl
+    # Disabled due to the use of 3rd party libraries
+    - depguard
+    # Disabled due to testing private function purpose
+    - testpackage
+  settings:
+    nestif:
+      # Minimal complexity of if statements to report.
+      # Allow complexity up to 15 instead of default 5
+      min-complexity: 15
