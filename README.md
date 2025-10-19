@@ -1,5 +1,8 @@
 # go-ReOrderFuncs
 
+> [!note]
+> WIP
+
 Alphabetically sorts test functions in Go source files.
 
 <!-- WIP
